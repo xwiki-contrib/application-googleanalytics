@@ -238,7 +238,7 @@
       <description>This extension allows to embed Google Analytics reports on XWiki.</description>
     </property>
     <property>
-      <name>Google Analytics Emned Application</name>
+      <name>Google Analytics Embed Application</name>
     </property>
     <property>
       <repository_name>application-googleanalytics</repository_name>

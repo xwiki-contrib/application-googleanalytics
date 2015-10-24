@@ -30,12 +30,12 @@
   <artifactId>application-google-analytics-emned-application</artifactId>
   <version>1.0</version>
   <packaging>xar</packaging>
-  <name>XWiki Application - Google Analytics Emned Application</name>
+  <name>XWiki Application - Google Analytics Embed Application</name>
   <description>This extension allows to embed Google Analytics reports on XWiki.</description>
   <developers>
     <developer>
       <id>ldubost</id>
-      <name>ldubost</name>
+      <name>Ludovic Dubost (XWiki SAS)</name>
     </developer>
   </developers>
  <build>
@@ -56,6 +56,13 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+     <dependency>
+	<groupId>com.google.api-client</groupId>
+	<artifactId>google-api-client</artifactId>
+	<version>1.20.0</version>
+     </dependency>
+  </dependencies>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-googleanalytics.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-googleanalytics.git</developerConnection>
