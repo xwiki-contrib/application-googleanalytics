@@ -28,7 +28,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-google-analytics-emned-application</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>xar</packaging>
   <name>XWiki Application - Google Analytics Embed Application</name>
   <description>This extension allows to embed Google Analytics reports on XWiki.</description>
