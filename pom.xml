@@ -30,12 +30,12 @@
   <artifactId>application-googleanalytics</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>xar</packaging>
-  <name>XWiki Application - Google Analytics Embed Application</name>
-  <description>This extension allows to embed Google Analytics reports on XWiki.</description>
+  <name>Google Analytics Embedding Application</name>
+  <description>Embed Google Analytics reports</description>
   <developers>
     <developer>
       <id>ldubost</id>
-      <name>Ludovic Dubost (XWiki SAS)</name>
+      <name>Ludovic Dubost</name>
     </developer>
   </developers>
  <build>
