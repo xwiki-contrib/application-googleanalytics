@@ -24,16 +24,13 @@
   <web>GoogleAnalytics</web>
   <name>Demo</name>
   <language/>
-  <defaultLanguage/>
+  <defaultLanguage>en</defaultLanguage>
   <translation>0</translation>
   <parent>GoogleAnalytics.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
   <author>xwiki:XWiki.Admin</author>
   <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1420066800000</creationDate>
-  <date>1420066800000</date>
-  <contentUpdateDate>1420066800000</contentUpdateDate>
   <version>1.1</version>
   <title>Google Analytics Embed API demo</title>
   <defaultTemplate/>
@@ -43,7 +40,7 @@
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
   <content>
-This demo pages allows to verify that your configuration is correct. When first accessing this page you will see different results depending on your configration:
+This demo pages allows to verify that your configuration is correct. When first accessing this page you will see different results depending on your configuration:
 
 * If you have properly setup "Server Authentication" a form with the list of accounts accessible to the "service account" should be visible
 * If you have properly setup "Client ID Authentication" a button to authenticate on Google Analytics should be visible. If you click on it and authenticate, then the form with your list of accounts should show up.

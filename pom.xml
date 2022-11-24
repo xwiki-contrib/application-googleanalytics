@@ -22,58 +22,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.xwiki.commons</groupId>
-    <artifactId>xwiki-commons-pom</artifactId>
-    <version>6.4</version>
+    <groupId>org.xwiki.contrib</groupId>
+    <artifactId>parent-commons</artifactId>
+    <version>13.10</version>
   </parent>
-  <groupId>org.xwiki.contrib</groupId>
+  <groupId>org.xwiki.contrib.googleanalytics</groupId>
   <artifactId>application-googleanalytics</artifactId>
   <version>1.1-SNAPSHOT</version>
-  <packaging>xar</packaging>
-  <name>Google Analytics Embedding Application</name>
-  <description>Embed Google Analytics reports</description>
+  <packaging>pom</packaging>
+  <name>Google Analytics Integration - Parent POM</name>
+  <description>Google Analytics Integration</description>
   <developers>
     <developer>
       <id>ldubost</id>
       <name>Ludovic Dubost</name>
     </developer>
+    <developer>
+      <id>vmassol</id>
+      <name>Vincent Massol</name>
+    </developer>
+    <developer>
+      <id>xwikidev</id>
+      <name>XWiki Development Team</name>
+    </developer>
   </developers>
- <build>
-    <!-- Needed to add support for the XAR packaging -->
-    <extensions>
-      <extension>
-        <groupId>org.xwiki.commons</groupId>
-        <artifactId>xwiki-commons-tool-xar-handlers</artifactId>
-        <version>${commons.version}</version>
-      </extension>
-    </extensions>
-    <plugins>
-      <!-- The XAR packaging uses the XAR plugin and thus we need to define what version to use -->
-      <plugin>
-        <groupId>org.xwiki.commons</groupId>
-        <artifactId>xwiki-commons-tool-xar-plugin</artifactId>
-        <version>${commons.version}</version>
-      </plugin>
-    </plugins>
-  </build>
-  <dependencies>
-     <dependency>
-	<groupId>com.google.api-client</groupId>
-	<artifactId>google-api-client</artifactId>
-	<version>1.20.0</version>
-     </dependency>
-  </dependencies>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-googleanalytics.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-googleanalytics.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-googleanalytics</url>
     <tag>HEAD</tag>
   </scm>
-  <distributionManagement>
-    <repository>
-      <id>xwiki-staging</id>
-      <name>XWiki Staging Repository</name>
-      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
+  <properties>
+    <xwiki.issueManagement.jira.id>XGA</xwiki.issueManagement.jira.id>
+    <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
+  </properties>
+  <modules>
+    <module>application-googleanalytics-reports</module>
+    <module>application-googleanalytics-tracking</module>
+  </modules>
 </project>
