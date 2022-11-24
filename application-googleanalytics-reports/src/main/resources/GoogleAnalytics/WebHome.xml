@@ -41,6 +41,6 @@
   <hidden>false</hidden>
   <content>This extension allows to integrate Google Analytics Reports into XWiki, by providing a set of Macro to use in XWiki either on your Dashboard or on any page.
 
-See the documentation at https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalyticsReportsExtension
+See the documentation at https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalytics/Reports/
 </content>
 </xwikidoc>

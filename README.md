@@ -6,8 +6,8 @@ Integrates Google Analytics inside XWiki.
     * [Ludovic Dubost](https://www.xwiki.org/xwiki/bin/view/XWiki/LudovicDubost)
     * [Vincent Massol](https://www.xwiki.org/xwiki/bin/view/XWiki/VincentMassol)
 * Documentation & Downloads:
-    * [Tracking Application](https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalyticsTrackingExtension)
-    * [Report Macros](https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalyticsReportsExtension)
+    * [Tracking Application](https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalytics/Tracking)
+    * [Report Macros](https://extensions.xwiki.org/xwiki/bin/view/Extension/GoogleAnalytics/Reports/)
 * [Issue Tracker](https://jira.xwiki.org/browse/XGA)
 * Communication: [Forum](https://forum.xwiki.org), [Chat](https://dev.xwiki.org/xwiki/bin/view/Community/Chat)
 * [Development Practices](https://dev.xwiki.org)
