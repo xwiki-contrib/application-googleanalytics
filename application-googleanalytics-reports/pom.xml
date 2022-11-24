@@ -30,6 +30,16 @@
   <packaging>xar</packaging>
   <name>Google Analytics Integration - Report Macros</name>
   <description>Macros for embedding Google Analytics reports in wiki pages</description>
+  <developers>
+    <developer>
+      <id>ldubost</id>
+      <name>Ludovic Dubost</name>
+    </developer>
+    <developer>
+      <id>vmassol</id>
+      <name>Vincent Massol</name>
+    </developer>
+  </developers>
   <properties>
     <!-- Name to display by the Extension Manager -->
     <xwiki.extension.name>Report Macros for Google Analytics</xwiki.extension.name>

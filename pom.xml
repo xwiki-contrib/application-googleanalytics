@@ -32,20 +32,6 @@
   <packaging>pom</packaging>
   <name>Google Analytics Integration - Parent POM</name>
   <description>Google Analytics Integration</description>
-  <developers>
-    <developer>
-      <id>ldubost</id>
-      <name>Ludovic Dubost</name>
-    </developer>
-    <developer>
-      <id>vmassol</id>
-      <name>Vincent Massol</name>
-    </developer>
-    <developer>
-      <id>xwikidev</id>
-      <name>XWiki Development Team</name>
-    </developer>
-  </developers>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-googleanalytics.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-googleanalytics.git</developerConnection>

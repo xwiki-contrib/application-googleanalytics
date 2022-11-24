@@ -30,6 +30,16 @@
   <packaging>xar</packaging>
   <name>Google Analytics Integration - Tracking</name>
   <description>Track page views using Google Analytics</description>
+  <developers>
+    <developer>
+      <id>vmassol</id>
+      <name>Vincent Massol</name>
+    </developer>
+    <developer>
+      <id>xwikidev</id>
+      <name>XWiki Development Team</name>
+    </developer>
+  </developers>
   <properties>
     <!-- Name to display by the Extension Manager -->
     <xwiki.extension.name>Page tracking with Google Analytics</xwiki.extension.name>
