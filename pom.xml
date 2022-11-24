@@ -32,6 +32,7 @@
   <packaging>pom</packaging>
   <name>Google Analytics Integration - Parent POM</name>
   <description>Google Analytics Integration</description>
+  <url>https://github.com/xwiki-contrib/application-googleanalytics/tree/master/</url>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-googleanalytics.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-googleanalytics.git</developerConnection>
